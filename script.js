@@ -11,9 +11,9 @@
             order: "Hubungi kami - pembayar - salin tautan akun/video - proses - selesai",
             use: "Meningkatkan Kepercayaan Pelanggan\nMendapatkan like/followers dengan instan\nBisa pamer ke temen\nMeningkatkan Gengsi Akun\nMemancing Algoritma & FYP"
         },
-        "Script bot kirim pesan ke semua grup dengan fitur tag senyap", desc: "Ini adalah script otomatisasi WhatsApp tingkat lanjut yang berfungsi mengirimkan pesan promosi atau informasi ke banyak grup secara massal, di mana setiap pesan yang masuk akan otomatis menandai (tag/mention) seluruh anggota grup guna memastikan informasi tersebut dibaca oleh semua orang.", order: "Hubungi kami - pembayaran - pengiriman file - selesai", use: "Notifikasi Berdering untuk Semua Anggota\nPengiriman Massal Lintas Grup Sekaligus\nMendukung Fitur Tag Senyap\nKompatibel untuk Pesan Media dan Teks" },
-        "overlay desain", desc: "Jasa Pembuatan Overlay Desain adalah layanan pembuatan elemen grafis transparan yang dirancang khusus untuk ditumpuk di atas konten video, siaran langsung (live streaming), maupun foto, dan masih banyak lagi yang bisa ditumpuk mengunakan overlay ini. Desain overlay ini berfungsi sebagai bingkai estetis, penunjuk informasi, sekaligus penguat identitas visual (branding) agar konten terlihat lebih profesional, interaktif,berkelas, dan lain lain.", order: "hubungi kami - pilih konsep - pembayaran - proses - Preview & Revisi - selesai", use: "Sistem Kerja Sat-Set dan Fleksibel\nBisa mengunakan Berbagai Format File\nMembuat overlay Katalog / Price List Toko Digital\nsebagai media promosi\nMembuat overlay Promosi Diskon / Event Musiman\nDesain Kustom & Eksklusif\nMeningkatkan Engagement & Nilai Jual"
-        "benner desain": desc: "Ini adalah layanan profesional berbasis keahlian digital yang menawarkan pembuatan desain banner kustom, dari benner profile hingga benner untuk jualan, yang disesuaikan dengan permintaan tema, warna, dan kebutuhan promosi dari klien.", order: "hubungi kami - pilih konsep - pembayaran - proses - Preview & Revisi - selesai", use: "Sistem Kerja Sat-Set dan Fleksibel\nBisa mengunakan Berbagai Format File\nMembuat Banner Katalog / Price List Toko Digital\nDaya Jangkau Pasar yang Sangat Luas\nMembuat Header Profil Media Sosial & Grup Chat\nMembuat Banner Promosi Diskon / Event Musiman\nMembuat Desain Spanduk Fisik untuk Acara / Toko Offline\nDesain Kustom & Eksklusif\nMeningkatkan Engagement & Nilai Jual" },
+        "Script bot kirim pesan ke semua grup dengan fitur tag senyap": { desc: "Ini adalah script otomatisasi WhatsApp tingkat lanjut yang berfungsi mengirimkan pesan promosi atau informasi ke banyak grup secara massal, di mana setiap pesan yang masuk akan otomatis menandai (tag/mention) seluruh anggota grup guna memastikan informasi tersebut dibaca oleh semua orang.", order: "Hubungi kami - pembayaran - pengiriman file - selesai", use: "Notifikasi Berdering untuk Semua Anggota\nPengiriman Massal Lintas Grup Sekaligus\nMendukung Fitur Tag Senyap\nKompatibel untuk Pesan Media dan Teks" },
+        "overlay desain": { desc: "Jasa Pembuatan Overlay Desain adalah layanan pembuatan elemen grafis transparan yang dirancang khusus untuk ditumpuk di atas konten video, siaran langsung (live streaming), maupun foto, dan masih banyak lagi yang bisa ditumpuk mengunakan overlay ini. Desain overlay ini berfungsi sebagai bingkai estetis, penunjuk informasi, sekaligus penguat identitas visual (branding) agar konten terlihat lebih profesional, interaktif,berkelas, dan lain lain.", order: "hubungi kami - pilih konsep - pembayaran - proses - Preview & Revisi - selesai", use: "Sistem Kerja Sat-Set dan Fleksibel\nBisa mengunakan Berbagai Format File\nMembuat overlay Katalog / Price List Toko Digital\nsebagai media promosi\nMembuat overlay Promosi Diskon / Event Musiman\nDesain Kustom & Eksklusif\nMeningkatkan Engagement & Nilai Jual" },
+        "benner desain": { desc: "Ini adalah layanan profesional berbasis keahlian digital yang menawarkan pembuatan desain banner kustom, dari benner profile hingga benner untuk jualan, yang disesuaikan dengan permintaan tema, warna, dan kebutuhan promosi dari klien.", order: "hubungi kami - pilih konsep - pembayaran - proses - Preview & Revisi - selesai", use: "Sistem Kerja Sat-Set dan Fleksibel\nBisa mengunakan Berbagai Format File\nMembuat Banner Katalog / Price List Toko Digital\nDaya Jangkau Pasar yang Sangat Luas\nMembuat Header Profil Media Sosial & Grup Chat\nMembuat Banner Promosi Diskon / Event Musiman\nMembuat Desain Spanduk Fisik untuk Acara / Toko Offline\nDesain Kustom & Eksklusif\nMeningkatkan Engagement & Nilai Jual" },
         "script spammer otp": { desc: "Script otomatisasi ini berfungsi untuk mengirimkan puluhan hingga ratusan pesan teks (SMS) kode OTP dari berbagai platform secara massal dan bertubi-tubi ke satu nomor HP target dalam waktu singkat.", order: "Hubungi kami - pembayaran - pengiriman file - selesai", use: "Ringan dan Bisa Dijalankan di HP\nPengiriman Massal Super Cepat\npemakaian mudah\nMenggunakan Banyak Sumber" },
         "paket apk hd": { desc: "Paket bundel aplikasi premium berbasis kecerdasan buatan (AI) yang berfungsi khusus untuk memproses, merestorasi, dan mendongkrak resolusi file foto atau video yang buram atau pecah-pecah menjadi beresolusi tinggi (Ultra HD) secara instan.", order: "Hubungi kami - pembayaran - pengiriman paket apk - selesai", use: "Proses Kilat dan Dijamin Legal\nRestorasi Foto Buram & Pecah Menjadi Tajam\nMeningkatkan Resolusi Video\nBisa membuka jasa 'Edit Foto & Video Menjadi HD'\nMemperbaiki Pencahayaan & Warna File Media\nMembuat Hasil Konten Media Sosial Selalu Hd" },
         "jasa memperpanjang masa aktf sim card": { desc: "Jasa memperpanjang masa aktif kartu perdana dari berbagai operator seluler Indonesia secara legal agar nomor tidak hangus atau terblokir tanpa perlu membeli pulsa & kuota.", order: "hubungi kami - pilih durasi - pembayaran - isi nomor - selesai", use: "Penyelamat Nomor Hangus / Masa Tenggang\nMendukung Seluruh Operator Indonesia\nJauh Lebih Hemat Dibanding Beli Pulsa / kuota\nSangat Cocok untuk Mengamankan Nomor Bisnis" },
@@ -491,11 +491,9 @@
         });
     }
 
-    // --- MAIN INITIALIZATION ON LOAD ---
-    // Diganti dari window.onload -> DOMContentLoaded supaya list produk & musik
-    // langsung muncul tanpa menunggu video/gambar besar selesai dimuat.
-    document.addEventListener('window.onload', function() {
-        // 1. Render Catalog lists
+
+    document.addEventListener('DOMContentLoaded', function() {
+
         buildDomList("jasa-list", dataJasa);
         buildDomList("apk-list", dataApk);
         buildDomList("ff-list", dataFF);
@@ -503,7 +501,7 @@
         buildDomList("tema-list",dataTema)
         buildDomList("jailbreak-list", dataJailbreak);
 
-        // 2. Render Music lists & Bind
+
         renderPlaylist();
         
         playPauseBtn.onclick = togglePlayPause;
@@ -540,12 +538,12 @@
 const dots = document.querySelectorAll('.dot');
 
 slider.addEventListener('scroll', () => {
-    // Menghitung slide mana yang sedang aktif
+
     let scrollLeft = slider.scrollLeft;
     let itemWidth = slider.offsetWidth;
     let activeIndex = Math.round(scrollLeft / itemWidth);
 
-    // Update status dot
+
     dots.forEach((dot, index) => {
         if (index === activeIndex) {
             dot.classList.add('active');
