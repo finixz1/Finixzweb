@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>FINIXZ MARKET - Official Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<video class="video-bg" autoplay loop muted playsinline>
+    <source src="https://ia902803.us.archive.org/15/items/materials-to-create-my-website/latarbelakang.mp4" type="video/mp4">
+</video>
+
+<div class="container">
+    <header class="header">
+        <h1>FINIXZ MARKET</h1>
+        <p>TEMPAT TERBAIK UNTUK KEBUTUHAN DIGITAL & GAME ANDA</p>
+        <video class="header-video" autoplay loop muted playsinline>
+            <source src="https://ia903204.us.archive.org/15/items/animation_202605/animation.mp4">
+        </video>    
+    </header>
+    
+   <div class="quote-container">
+    <span class="quote-mark text-glow">“</span>
+    <p class="quote-text">"KENYAMANAN ANDA ADALAH PRIORITAS KAMI. JIKA ADA KRITIK, SARAN, ATAU MASUKAN UNTUK PERKEMBANGAN WEBSITE KAMI, JANGAN RAGU UNTUK MENGHUBUNGU KAMI MELALUI CONTACT DI BAWAH."</p>
+    <span class="quote-mark text-glow">”</span>
+</div>
+
+
+    <div class="music-box">
+        <div class="song-header">
+            <div class="badge-track">🌀 PLAYLIST • 33 LAGU 🌀</div>
+            <div class="song-title" id="currentSongTitle">Memuat...</div>
+            <div class="artist-fake">⚡FINIXZ MARKET | MELAYANI KEBUTUHAN DIGITAL ANDA⚡</div>
+        </div>
+
+        <div class="progress-area">
+            <div class="time-info">
+                <span id="currentTime">0:00</span>
+                <span id="durationTime">0:00</span>
+            </div>
+            <div class="progress-bar-bg" id="progressBarBg">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="ctrl-btn" id="prevBtn" title="Sebelumnya">
+                <svg viewBox="0 0 24 24"><path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/></svg>
+            </button>
+            <button class="ctrl-btn play-pause" id="playPauseBtn" title="Putar/Jeda">
+                <svg id="playIcon" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                <svg id="pauseIcon" style="display:none" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+            </button>
+            <button class="ctrl-btn" id="nextBtn" title="Selanjutnya">
+                <svg viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
+            </button>
+        </div>
+
+        <div class="volume-container">
+            <div class="volume-icon">🔊</div>
+            <input type="range" id="volumeSlider" class="volume-slider" min="0" max="1" step="0.01" value="1">
+            <span id="volumePercent" class="volume-value">100%</span>
+        </div>
+
+        <div class="playlist-section">
+            <div class="playlist-title">💿 PLAYLIST LAGU • klik gembok untuk mengunci lagu</div>
+            <div class="song-list" id="songListContainer"></div>
+            <div class="status-message" id="statusMsg">🎵 Klik tombol PLAY untuk mulai 🎵</div>
+            
+            <div style="margin-top: 15px; text-align: center; color: #cccccc; font-size: 0.7rem; line-height: 1.4; opacity: 0.8;">
+                <p>Mohon maaf jika nama lagu atau nama pencipta lagunya ada yang keliru, kami mohon maaf sebesar-besarnya.</p>
+                <p style="margin-top: 5px; font-weight: bold; color: #ffffff;">Ingin request lagu? Hubungi kami di bawah</p>
+            </div>
+        </div>
+    </div>
+
+<div class="catalog-slider">
+   <div class="catalog-item">
+   <div class="catalog-box">
+        <h2 class="category-title">🛠️ JASA & LAYANAN</h2>
+        <p class="catalog-price-tag">1K - 20K/JASA&LAYANAN</p>
+        <p class="catalog-price-tag">(TERGANTUNG KESULITAN & JUMLAHNYA)</p>
+        <div id="jasa-list" class="product-list"></div>
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">SILAHKAN SCROLL KE BAWAH UNTUK MELIHAT ISI PRODUK NYA DAN GESER KE SAMPING UNTUK MELIHAT PRODUK LAINNYA</div>
+        <div class="note-box">Silahkan klik tombol DETAIL pada layanan yang ingin dipesan untuk melihat langkah spesifik dan kegunaannya.</div>
+    </div>
+</div>
+
+
+   <div class="catalog-item">
+     <div class="catalog-box">
+        <h2 class="category-title">📱 APK & WEB</h2>
+        <p class="catalog-price-tag">2 - 5K/APK</p>
+        <div id="apk-list" class="product-list"></div>
+        <div class="catalog-notes">
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">SEMUA APK DAN WEB DI SINI BISA DIJUAL KEMBALI DAN BISA BALIK MODAL JIKA BERUSAHA</div>
+        <div class="note-box">Silahkan klik tombol DETAIL pada layanan yang ingin dipesan untuk melihat langkah spesifik dan kegunaannya.</div>
+    </div>
+    </div>
+</div>
+
+   <div class="catalog-item">
+     <div class="catalog-box">
+        <h2 class="category-title">🎮 FREE FIRE</h2>
+        <p class="catalog-price-tag">5 - 15K/FILE</p>
+        <div id="ff-list" class="product-list"></div>
+        <div class="catalog-notes">
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">SEMUA FILE & ACCOUNT FREE FIRE DI SINI BISA DIJUAL KEMBALI DAN BISA BALIK MODAL JIKA BERUSAHA</div>
+        <div class="note-box">Silahkan klik tombol DETAIL pada layanan yang ingin dipesan untuk melihat langkah spesifik dan kegunaannya.</div>
+    </div>
+    </div>
+    </div>
+ 
+
+   <div class="catalog-item">
+     <div class="catalog-box">
+        <h2 class="category-title">🌐 SCRIPT</h2>
+        <p class="catalog-price-tag">10 - 20K/SCRIPT</p>
+        <div id="script-list" class="product-list"></div>
+        <div class="catalog-notes">
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">SEMUA SCRIPT DI SINI BISA DIJUAL KEMBALI DAN BISA BALIK MODAL JIKA BERUSAHA</div>
+        <div class="note-box">Silahkan klik tombol DETAIL pada layanan yang ingin dipesan untuk melihat langkah spesifik dan kegunaannya.</div>
+    </div>
+    </div>
+    </div>
+
+   <div class="catalog-item">
+     <div class="catalog-box">
+        <h2 class="category-title">🎨 WIDGET & LAUNCHER</h2>
+        <p class="catalog-price-tag">3 - 5K/WIDGET & LAUNCHER</p>
+        <div id="tema-list" class="product-list"></div>
+        <div class="catalog-notes">
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">WIDGET NYA BERBENTUK FILE,DAN HARUS MEMBUTUHKAN APK,TAPI TENANG SAJA SETIAP PEMBELIAN DIKASIH APKNYA</div>
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">SEMUA WIDGET & LAUNCHER DI SINI BISA DIJUAL KEMBALI DAN BISA BALIK MODAL JIKA BERUSAHA</div>
+        <div class="note-box">Silahkan klik tombol DETAIL pada layanan yang ingin dipesan untuk melihat langkah spesifik dan kegunaannya.</div>
+    </div>
+    </div>
+    </div>
+  
+
+   <div class="catalog-item catalog-item-jailbreak">
+     <div class="catalog-box">
+        <h2 class="category-title">🤖 JAILBREAK AI</h2>
+        <p class="catalog-price-tag">2K/JAILBREAK</p>
+        <div id="jailbreak-list" class="product-list"></div>
+       <div class="catalog-notes">
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">TOTAL JAILBREAK YANG TERSEDIA ADA BANYAK VARIASI TETAPI YANG DITAMPILKAN HANYA 3 KARENA DESKRIPSI,CARA ORDER,KEGUNAAN/KEUNGGULANNYA TETAP SAMA</div>
+        <div class="note-box" style="color: #ffffff; font-weight: 900; text-shadow: 0 0 5px rgba(255,255,255,0.5);">SEMUA JAILBREAK DI SINI BISA DIJUAL KEMBALI DAN BISA BALIK MODAL JIKA BERUSAHA</div>
+        <div class="note-box">Silahkan klik tombol DETAIL pada layanan yang ingin dipesan untuk melihat langkah spesifik dan kegunaannya.</div>
+    </div>
+    </div>
+    </div>
+</div>
+    <div class="slider-dots" id="slider-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+</div>
+    
+    <div class="catalog-box">
+        <h2>📝 CARA ORDER</h2>
+        <div style="padding: 5px 10px;">
+            <ul class="order-list">
+                <li>1. LIHAT LIST PRODUK & DETAILNYA</li>
+                <li>2. HUBUNGI KAMI</li>
+                <li>3. LAKUKAN PEMBAYARAN   SESUAI HARGA</li>
+                <li>4. KIRIM BUKTI TRANSFER</li>
+                <li>5. TUNGGU PROSES</li>
+                <li>6. SELESAI</li>
+            </ul>
+        </div>
+    </div>
+   
+    
+    
+    
+    
+    
+    <div class="catalog-box">
+        <h2>💳 METODE PEMBAYARAN</h2>
+        <div class="payment-grid">
+            <div class="payment-card">
+                <img src="https://ia902805.us.archive.org/2/items/payment_20260530/Proyek%20Baru%2025%20%5B812A84D%5D.png" alt="DANA">
+                <p>DANA</p>
+            </div>
+            <div class="payment-card">
+                <img src="https://ia802805.us.archive.org/2/items/payment_20260530/Proyek%20Baru%2025%20%5B5A3DA94%5D.png" alt="GOPAY">
+                <p>GOPAY</p>
+            </div>
+        </div>
+        <div class="qris-box">
+            <img src="https://ia600106.us.archive.org/25/items/materials_202605/Proyek%20Baru%2025%20%5B7932FB2%5D.png" alt="QRIS">
+            <p class="qris-title-bottom">QRIS</p>
+            <p class="qris-text">ALL PAYMENT</p>
+        </div>
+    </div>
+
+    <div class="catalog-box" style="text-align:center;">
+        <h2>📩 CONTACT KAMI</h2>
+        <p style="font-size: 0.9em; margin-bottom: 5px;"><strong>INFO LEBIH LANJUT BISA HUBUNGI CONTACT DI BAWAH INI</strong></p>
+       
+        <p style="font-size: 0.75em; color: var(--neon-blue); margin-bottom: 0px; text-shadow: var(--neon-glow);"> Silahkan klik tombol di bawah ini untuk menghubungi </p>
+        <p style="font-size: 0.75em; color: var(--neon-blue); margin-bottom: 20px; text-shadow: var(--neon-glow);"> 👇 contact kami 👇</p>
+
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; max-width: 400px; margin: 0 auto; padding: 5px;">
+            <div>
+                <a href="https://wa.me/6285784078389" class="btn-detail" style="display: block; text-align: center;">WHATSAPP</a>
+            </div>
+            <div>
+                <a href="https://t.me/Finixz1" class="btn-detail" style="display: block; text-align: center;">TELEGRAM</a>
+            </div>
+            <div>
+                <a href="https://whatsapp.com/channel/0029VbC7PAz9Gv7atMpTvj2F" class="btn-detail" style="border-color: #ffffff; color: #ffffff; display: block; text-align: center;">TESTIMONI</a>
+            </div>
+            <div>
+               <a href="mailto:finixzmarket@gmail.com" class="btn-detail" style="border-color: #ffffff; color: #ffffff; display: block; text-align: center;">GMAIL</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog-box benefit-list">
+        ✦ FAST RESPON (SLOW RESPON = KELUAR)<br>
+        ✦ AMAN  & TERPERCAYA<br>
+        ✦ HARGA BERSAHABAT<br>
+        ✦ TESTI? BANYAK<br>
+        ✦ RAGU? SIAP REKBER/MC<br>
+    </div>
+</div>
+
+<div class="copyright">© nilzz store - 2026</div>
+
+<div id="itemModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3 id="m-title" style="color:var(--neon-white); text-transform: uppercase; border-bottom: 1px solid #333; padding-bottom:10px; text-shadow: var(--neon-glow);"></h3>
+        <span class="modal-label">Deskripsi</span>
+        <p id="m-desc" class="modal-text"></p>
+        <span class="modal-label">Cara Order</span>
+        <p id="m-order" class="modal-text"></p>
+        <span class="modal-label">Kegunaan/Keunggulan</span>
+        <p id="m-use" class="modal-text"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
